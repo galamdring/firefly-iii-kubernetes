@@ -3,10 +3,11 @@ resources:
   - firefly-iii.yaml
   - ingress-firefly-iii-cron.yaml
   - firefly-iii-importer.yaml
+  - ingress-firefly-iii.yaml
 secretGenerator:
 - name: firefly-iii-secrets
   literals:
-  - db_password=CHANGEMECHANGEME
-  - app_key=CHANGEMECHANGEMECHANGEMECHANGEME
-  - access_token=CHANGEMECHANGEMECHANGEME...
-  - static_cron_token=CHANGE12CHAR
+  - db_password=super_secret_password123
+  - app_key=IamAnAppKeyOrSomething
+  - access_token=tokenOnAWeed!
+  - static_cron_token=abcdefgh1234
