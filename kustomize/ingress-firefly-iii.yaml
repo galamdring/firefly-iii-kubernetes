@@ -9,7 +9,7 @@ metadata:
   name: firefly-iii-ingress
 spec:
   rules:
-  - host: firefly-iii.your-domain.org
+  - host: firefly-iii.lukemckechnie.com
     http:
       paths:
       - backend:
