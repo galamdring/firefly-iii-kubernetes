@@ -19,6 +19,7 @@ metadata:
   labels:
     app: firefly-iii
 spec:
+  storageClassName: longhorn
   accessModes:
     - ReadWriteOnce
   resources:
