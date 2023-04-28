@@ -10,4 +10,4 @@ secretGenerator:
   - db_password=super_secret_password123
   - app_key=TtQwjrIQ3Ig0Jebrq1YS1gdTWZTlyFf9
   - access_token=tokenOnAWeed!
-  - static_cron_token=abcdefgh1234
+  - static_cron_token=f1889db42caa46a7c64cdd4c38dec990
