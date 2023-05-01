@@ -13,7 +13,7 @@ metadata:
   name: firefly-iii-importer-ingress
 spec:
   rules:
-  - host: importer-firefly-iii.your-domain.org
+  - host: importer-ffiii.lukemckechnie.com
     http:
       paths:
       - backend:
